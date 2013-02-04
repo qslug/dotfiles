@@ -22,3 +22,12 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+##
+# Your previous /Users/augustodelatorre/.profile file was backed up as /Users/augustodelatorre/.profile.macports-saved_2013-02-04_at_00:31:06
+##
+
+# MacPorts Installer addition on 2013-02-04_at_00:31:06: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+

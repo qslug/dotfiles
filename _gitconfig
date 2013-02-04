@@ -1,6 +1,6 @@
 [user]
-    name = John Anderson
-    email = sontek@gmail.com
+    name = Augusto de la Torre
+    email = augusto.delatorre@gmail.com
 
 [color]
     diff = auto
@@ -23,7 +23,6 @@
     co = checkout
     df = diff
     lg = log -p
-    up = !sh -c 'git pull --rebase --prune && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..'
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
