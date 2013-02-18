@@ -1,8 +1,10 @@
-# Mac Ports Coreutils
-export PATH=/opt/local/libexec/gnubin/:/opt/local/bin:/opt/local/sbin:$PATH
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
+# Mac Ports Coreutils
+export PATH=/opt/local/libexec/gnubin/:/opt/local/bin:/opt/local/sbin:$PATH
+# LF Dev
+export PATH=/usr/local/bin:/usr/local/share/python:$HOME/dev/lfdev/scripts:$PATH
 #osx color terminal
 export CLICOLOR=1
 # Store a lot of history
@@ -86,5 +88,7 @@ set -o emacs
 export EDITOR="$vim"
 export GIT_EDITOR="$vim"
 
-# Add git and svn branch names
+# Add git branch names
 export PS1="$PS1\$(parse_git_branch) "
+
+if [ -e /Users/augustodelatorre/dev/lfdev/scripts/rc ]; then source /Users/augustodelatorre/dev/lfdev/scripts/rc ; fi
