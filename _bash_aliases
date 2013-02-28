@@ -1,0 +1,9 @@
+export PATH=~/dev/lfdev/scripts:$PATH
+
+alias dj='cd ~/dev/lfdj/'
+alias ops='cd ~/dev/lfops/'
+alias cfg='cd ~/dev/lfconfig/'
+alias dash='cd ~/dev/lfdash/'
+alias oct='cd ~/dev/octant/'
+alias hg='history | egrep -i'
+alias gg='git grep -i'
